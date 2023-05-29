@@ -69,7 +69,7 @@ int main () {
     //INTRO
     greet();
     std::cin >> word_init; //PLAYER ONE INPUTS WORD    
-    std::vector<char> word(word_init.size()); //
+    std::vector<char> word(word_init.size()); 
     std::vector<char> reveal(word_init.size());
     
 
@@ -79,7 +79,7 @@ int main () {
 
     //CONVERTS WORD TO REVEAL WITH SPACES INSTEAD
 
-    
+
     /*
     for(int i = 0; i < word.size(); i++) {
         reveal[i] = '_';
