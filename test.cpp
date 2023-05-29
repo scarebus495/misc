@@ -2,6 +2,9 @@
 #include <string>
 #include <vector>
 
+//===================FUNCTIONS GO HERE==========================================================
+
+
 bool guess_function(std::vector<char> word, std::vector<char> reveal, char guess){
     for(int i = 0; i < word.size(); i++) {
         if(word[i] == guess) {
@@ -13,6 +16,9 @@ bool guess_function(std::vector<char> word, std::vector<char> reveal, char guess
 
 
 
+
+
+//===============================================================================================
 int main () {
     std::string word_init;
     int miss = 0;
